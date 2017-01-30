@@ -1,15 +1,27 @@
 {
   "name": "babel-preset-lls-core",
-  "version": "0.0.1",
   "description": "An opinionated babel preset, best used for lls-apps",
+  "homepage": "https://github.com/mderrier/babel-preset-lls-core#readme",
+  "version": "0.0.2",
   "main": "lib/index.js",
-  "repository": "https://github.com/mderrier/babel-preset-lls-core.git",
-  "author": "mderrier <maximilien.derrier@gmail.com>",
-  "license": "MIT",
+  "author": {
+    "email": "maximilien.derrier@gmail.com",
+    "name": "mderrier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mderrier/babel-preset-lls-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mderrier/babel-preset-lls-core/issues"
+  },
   "dependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-preset-latest": "^6.22.0"
   },
-  "files": ["lib"]
+  "files": [
+    "lib"
+  ],
+  "license": "MIT"
 }
